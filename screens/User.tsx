@@ -31,7 +31,7 @@ export const UserDetails = ({ user }: Props) => {
       </View>
       <Text style={headerText}>Personal Details</Text>
       <View style={{ ...userCard, flexDirection: 'column', alignItems: 'flex-start' }}>
-        <Text style={cardEmail}>Age: { user.dob.age }</Text>
+        <Text style={cardEmail}>Agevvvv: { user.dob.age }</Text>
         <Text style={cardEmail}>Phone: { user.phone }</Text>
         <Text style={cardEmail}>Mobile: { user.cell }</Text>
       </View>
